@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @message.text %>
+</p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @message.result %>
+</p>
+
+<p>
+  <strong>Protocol:</strong>
+  <%= @message.protocol %>
+</p>
+
+<p>
+  <strong>Response:</strong>
+  <%= @message.response %>
+</p>
+
+<p>
+  <strong>Recipient:</strong>
+  <%= @message.recipient %>
+</p>
+
+<p>
+  <strong>Sender:</strong>
+  <%= @message.sender %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @message.url %>
+</p>
+
+<p>
+  <strong>Token:</strong>
+  <%= @message.token %>
+</p>
+
+<p>
+  <strong>Appname:</strong>
+  <%= @message.appname %>
+</p>
+
+<td><%= link_to 'Refresh', @message %></td>
+<%= link_to 'Back', messages_path %>

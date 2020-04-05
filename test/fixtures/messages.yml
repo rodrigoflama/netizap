@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  text: MyText
+  result: MyString
+  protocol: MyString
+  response: MyString
+  recipient: MyString
+  sender: MyString
+  url: MyString
+  token: MyString
+  appname: MyString
+
+two:
+  text: MyText
+  result: MyString
+  protocol: MyString
+  response: MyString
+  recipient: MyString
+  sender: MyString
+  url: MyString
+  token: MyString
+  appname: MyString
