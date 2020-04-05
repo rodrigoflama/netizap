@@ -24,9 +24,9 @@ class MessagesController < ApplicationController
   # GET /messages/new
   def new
     @message = Message.new
-    @message.url = "http://api.meuaplicativo.vip:13006"
-    @message.sender = "5527992052989"
-    @message.token = "S29TLg1jU5X0J1riC9WJ"
+    @message.url = "http://api.meuaplicativo.vip:13005"
+    @message.sender = "5527981049976"
+    @message.token = "Noy4B94tQ9em3xXdAmhb"
     @message.appname = "NetiZap"
   end
 
